@@ -1,0 +1,35 @@
+#paper {
+  background: url("../img/paper.jpg") no-repeat center;
+  width: 200px;
+  height: 200px;
+  border: solid black 2px;
+  transition: 0.2s;
+  font-size: 24px;
+}
+
+#rock {
+  background: url("../img/rock.jpg") no-repeat center;
+  width: 200px;
+  height: 200px;
+  border: solid black 2px;
+  transition: 0.2s;
+  font-size: 24px;
+}
+
+#scissors {
+  background: url("../img/scissors.jpg") no-repeat center;
+  width: 200px;
+  height: 200px;
+  border: solid black 2px;
+  transition: 0.2s;
+  font-size: 24px;
+}
+
+#paper:hover, #rock:hover, #scissors:hover {
+  transform: scale(1.2); 
+  border: none;
+}
+
+h2 {
+  text-align: center;
+}

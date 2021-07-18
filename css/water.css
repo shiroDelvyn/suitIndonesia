@@ -1,0 +1,35 @@
+#water {
+  background: url("../img/water.jpg") no-repeat center;
+  width: 200px;
+  height: 200px;
+  border: solid black 2px;
+  transition: 0.2s;
+  font-size: 24px;
+}
+
+#rock {
+  background: url("../img/rock.jpg") no-repeat center;
+  width: 200px;
+  height: 200px;
+  border: solid black 2px;
+  transition: 0.2s;
+  font-size: 24px;
+}
+
+#glass {
+  background: url("../img/glass.jpg") no-repeat center;
+  width: 200px;
+  height: 200px;
+  border: solid black 2px;
+  transition: 0.2s;
+  font-size: 24px;
+}
+
+#water:hover, #rock:hover, #glass:hover {
+  transform: scale(1.2); 
+  border: none;
+}
+
+h2 {
+  text-align: center;
+}

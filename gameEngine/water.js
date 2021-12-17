@@ -26,40 +26,40 @@ function judge(P1w, P2w) {
   var result = P1w + ' ' + P2w;
   switch(result) {
     case "rock water":
-      P1win = true;
-      P2win = false;
+      P1win = false
+      P2win = true;
       break;
     case "rock rock":
       P1win = false;
       P2win = false;
       break;
     case "rock glass":
-      P1win = false;
-      P2win = true;
+      P1win = true;
+      P2win = false;
       break;
     case "glass water":
-      P1win = false;
-      P2win = true;
+      P1win = true;
+      P2win = false;
       break;
     case "glass glass":
       P1win = false;
       P2win = false;
       break;
     case "glass rock":
-      P1win = true;
-      P2win = false;
-      break;
-    case "water rock":
       P1win = false;
       P2win = true;
+      break;
+    case "water rock":
+      P1win = true;
+      P2win = false;
       break;
     case "water water":
       P1win = false;
       P2win = false;
       break;
     case "water glass":
-      P1win = true;
-      P2win = false;
+      P1win = false;
+      P2win = true;
       break;
   }
 
